@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2x2 tiles inside the 66dp safe zone: hidden, revealed star, hidden, player-claimed. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Top-left: hidden tile with diamond -->
+    <path android:fillColor="#2F3442"
+        android:pathData="M36,30h14a4,4 0,0 1,4 4v14a4,4 0,0 1,-4 4h-14a4,4 0,0 1,-4 -4v-14a4,4 0,0 1,4 -4z" />
+    <path android:strokeColor="#B9C2D6" android:strokeWidth="1.6" android:fillColor="#00000000"
+        android:pathData="M43,36.5L47.5,41L43,45.5L38.5,41Z" />
+    <!-- Top-right: revealed star -->
+    <path android:fillColor="#F4F1EA"
+        android:pathData="M60,30h14a4,4 0,0 1,4 4v14a4,4 0,0 1,-4 4h-14a4,4 0,0 1,-4 -4v-14a4,4 0,0 1,4 -4z" />
+    <path android:fillColor="#B08A2E"
+        android:pathData="M67,33.5L68.9,38.4L74.1,38.7L70.1,42L71.4,47.1L67,44.3L62.6,47.1L63.9,42L59.9,38.7L65.1,38.4Z" />
+    <!-- Bottom-left: player-claimed tile -->
+    <path android:fillColor="#8FC1D8"
+        android:pathData="M36,56h14a4,4 0,0 1,4 4v14a4,4 0,0 1,-4 4h-14a4,4 0,0 1,-4 -4v-14a4,4 0,0 1,4 -4z" />
+    <path android:fillColor="#16181E"
+        android:pathData="M43,59.5a3.3,3.3 0,1 1,0 6.6a3.3,3.3 0,1 1,0 -6.6zM37,74.5c0,-6.5 12,-6.5 12,0z" />
+    <!-- Bottom-right: revealed matching star -->
+    <path android:fillColor="#F4F1EA"
+        android:pathData="M60,56h14a4,4 0,0 1,4 4v14a4,4 0,0 1,-4 4h-14a4,4 0,0 1,-4 -4v-14a4,4 0,0 1,4 -4z" />
+    <path android:fillColor="#B08A2E"
+        android:pathData="M67,59.5L68.9,64.4L74.1,64.7L70.1,68L71.4,73.1L67,70.3L62.6,73.1L63.9,68L59.9,64.7L65.1,64.4Z" />
+</vector>
